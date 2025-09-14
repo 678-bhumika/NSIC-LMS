@@ -250,7 +250,7 @@ export const dummyDashboardData = {
             }
         },
          {
-            "courseTitle": "Software Development (Java, Python, C/C++",
+            "courseTitle": "Software development (Java, Python, C++)",
             "learner": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Aditya Verma",
@@ -262,6 +262,142 @@ export const dummyDashboardData = {
             "learner": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Nisha Chauhan",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Artificial Intelligence and Machine Learning",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Ravi Kumar",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Data Science and Analytics",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Sneha Pillai",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Cybersecurity fundamentals",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Vikram Singh",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Cloud computing and networking",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Arjun Malhotra",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Food processing and bakery training",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Nisha Chauhan",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Handicraft and traditional arts",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Anjali Mehta",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+
+        {
+            "courseTitle": "Electrical technician training",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Manish Kumar",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },{
+            "courseTitle": "Plumbing, Carpentry, and Construction skills",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Neha Sharma",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "GST & Taxation",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Ritesh Gupta",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Financial literacy and management",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Niti Patel",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "MSME schemes, subsidies and incentives",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Lakshmi Iyer",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Project financing and credit management",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Pranav Desai",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Communication and soft skills",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Aditi Joshi",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Leadership and team management",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Shivam Kapoor",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Time Management and Productivity",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Riya Sen",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Workplace ethics and professionalism",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Mehul Jain",
+                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            }
+        },
+        {
+            "courseTitle": "Interview preparation and job readiness",
+            "learner": {
+                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "name": "Rahul Verma",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
         },
