@@ -2,6 +2,7 @@ import express from 'express'
 import { addCourse, instructorDashboardData, getInstructorCourses, getEnrolledLearnersData, updateRoleToInstructor } from '../controllers/instructorController.js';
 import upload from '../configs/multer.js';
 import { protectInstructor } from '../middlewares/authMiddleware.js';
+
 const instructorRouter = express.Router()
 
 instructorRouter.get('/update-role',updateRoleToInstructor)
