@@ -44,7 +44,7 @@ export const AppContextProvider = (props)=> {
 
     const fetchAllCourses = async()=> {
         try{
-            const {data} = await api('get', '/api/course/all')
+            const {data} = await api('get', '/api/courses/all')
             if(data.success){
                 setAllCourses(data.courses)
             }else{
@@ -62,9 +62,7 @@ export const AppContextProvider = (props)=> {
         }
 
         try{
-            const token = await getToken();
-
-            const {data}= await api('get', '/api/user/data',{headers: {Authorization: `Bearer ${token}`}})
+            const {data}= await api('get', '/api/user/data');
 
             if(data.success){
                 setUserData(data.user)
@@ -104,8 +102,7 @@ export const AppContextProvider = (props)=> {
 
     const fetchUserEnrolledCourses = async ()=> {
         try{
-            const token = await getToken();
-            const {data} = await api('get', '/api/user/enrolled-courses', {headers: {Authorization: `Bearer ${token}`}})
+            const {data} = await api('get', '/api/user/enrolled-courses')
             if(data.success){
                 setEnrolledCourses(data.enrolledCourses.reverse())
             }else{
