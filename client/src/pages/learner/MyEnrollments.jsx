@@ -43,7 +43,14 @@ const MyEnrollments = () => {
   return (
     <>
     <div className='md:px-36 px-8 pt-10'>
+      <div className='mb-6'>
       <h1 className='text-2xl font-semibold'>My Enrollments</h1>
+      <p className='text-gray-500 mt-1'>
+            <span className='text-blue-600 cursor-pointer' onClick={() => navigate('/')}>
+              Home
+            </span>
+          </p>
+        </div>
       <table className='md:table-auto table-fixed w-full overflow-hidden border mt-10'>
         <thead className='text-gray-900 boredr-b border-gray-500/20 text-sm text-left max-sm:hidden'>
           <tr>
