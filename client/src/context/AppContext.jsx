@@ -58,7 +58,7 @@ export const AppContextProvider = (props)=> {
 
     const fetchUserData = async()=> {
 
-        if(user.publicMetadata.role === 'instructor' ){
+        if(user?.publicMetadata?.role === 'instructor' ){
             setIsInstructor(true)
         }
 

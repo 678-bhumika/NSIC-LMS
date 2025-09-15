@@ -16,14 +16,15 @@ await connectCloudinary()
 
 app.use(cors())
 
-app.use(clerkMiddleware())
 
 app.get('/', (req,res)=>res.send("API Working"))
 app.post('/clerk', express.json(), clerkWebhooks)
 
-app.use('/api/instructor',express.json(),instructorRouter)
 app.use('/api/courses',express.json(),courseRouter)
-app.use('/api/user',express.json(), userRouter)
+
+app.use('/api/user', express.json(), requireAuth, userRouter)
+app.use('/api/instructor', express.json(), requireAuth, instructorRouter)
+
 app.post('/stripe', express.raw({type:'application/json'}), stripeWebhooks)
 
 const PORT = process.env.PORT || 5000
