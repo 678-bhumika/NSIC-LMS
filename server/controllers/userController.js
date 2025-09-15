@@ -21,7 +21,14 @@ export const userEnrolledCourses = async(req,res)=>{
     try{
        const userId = req.auth.userId
        const userData = await User.findById(userId).populate('enrolledCourses')
-       res.json({success: true, enrolledCourses: userData.enrolledCourses})
+
+        if (!userData) {
+      return res.json({ success: false, message: 'User Not Found' });
+    }
+
+    const courses = Array.isArray(userData.enrolledCourses) ? userData.enrolledCourses : [];
+
+       res.json({success: true, enrolledCourses: courses})
     }catch(error){
           res.json({success: false, message: error.message});
     }
@@ -32,19 +39,22 @@ export const purchaseCourse = async (req,res)=>{
         const { courseId } = req.body
         const {origin} = req.headers
         const userId = req.auth.userId
+
         const userData = await User.findById(userId)
         const courseData = await Course.findById(courseId)
 
         if(!userData || !courseData){
             return res.json({ success: false, message: 'Data Not Found'})
         }
-        const purchaseData ={
+
+        const amount = (courseData.coursePrice - (courseData.discount || 0) * courseData.coursePrice / 100).toFixed(2);
+
+        const newPurchase = await Purchase.create({
             courseId: courseData._id,
             userId,
-            amount:(courseData.coursePrice - courseData.discount * courseData.coursePrice/100).toFixed(2),
-        }
-        const newPurchase = await Purchase.create(purchaseData)
-        const stripeInstance = new Stripe(process.env.STRIPE_SECRET_KEY) 
+            amount
+        })
+        const stripeInstance = new Stripe(process.env.STRIPE_SECRET_KEY)
         const currency = process.env.CURRENCY.toLowerCase()
         const line_items = [{
             price_data:{
@@ -79,6 +89,8 @@ export const updateUserCourseProgress = async(req,res)=>{
         const progressData = await CourseProgress.findOne({userId, courseId})
 
         if(progressData){
+            progressData.lectureCompleted = Array.isArray(progressData.lectureCompleted) ? progressData.lectureCompleted : [];
+
             if(progressData.lectureCompleted.includes(lectureId)){
                 return res.json({success: true, message: 'Lecture Already Completed'})
             }
@@ -122,10 +134,10 @@ export const addUserRating = async (req, res)=>{
             return res.json({ success: false, message:' Course not found'});
         }
         const user = await User.findById(userId);
-        if(!user || !user.enrolledCourses.includes(courseId)){
+        if(!user || !(Array.isArray(user.enrolledCourses) && user.enrolledCourses.includes(courseId))){
             return res.json({ success: false, message: 'User has not purchased this course'});
         }
-        const existingRatingIndex = course.courseRatings.findIndex(r=> r.userId === userId)
+        const existingRatingIndex = course.courseRatings.findIndex(r=> r.userId.toString() === userId.toString());
 
         if(existingRatingIndex > -1){
             course.courseRatings[existingRatingIndex].rating = rating;
