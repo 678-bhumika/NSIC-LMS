@@ -44,7 +44,8 @@ export const AppContextProvider = (props)=> {
 
     const fetchAllCourses = async()=> {
         try{
-            const {data} = await api('get', '/api/courses/all')
+            const data = await api('get', '/api/courses/all')
+            console.log("fetchAllCourses response:", data);
             if(data.success){
                 setAllCourses(data.courses)
             }else{
@@ -62,7 +63,8 @@ export const AppContextProvider = (props)=> {
         }
 
         try{
-            const {data}= await api('get', '/api/user/data');
+            const data= await api('get', '/api/user/data');
+            console.log("fetchUserData response:", data);
 
             if(data.success){
                 setUserData(data.user)
@@ -102,7 +104,9 @@ export const AppContextProvider = (props)=> {
 
     const fetchUserEnrolledCourses = async ()=> {
         try{
-            const {data} = await api('get', '/api/user/enrolled-courses')
+            const data = await api('get', '/api/user/enrolled-courses')
+            console.log("fetchUserEnrolledCourses response:", data);
+
             if(data.success){
                 setEnrolledCourses(data.enrolledCourses.reverse())
             }else{
