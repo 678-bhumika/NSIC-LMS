@@ -23,9 +23,28 @@ export const AppContextProvider = (props)=> {
     const [enrolledCourses, setEnrolledCourses] = useState([])
     const [userData, setUserData] = useState(null)
 
+    const api = async (method, url, body = {}) => {
+    try {
+      const token = await getToken();
+      const res = await axios({
+        method,
+        url: backendUrl + url,
+        data: body,
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+      });
+      return res.data;
+    } catch (error) {
+      toast.error(error.response?.data?.message || error.message);
+      throw error;
+    }
+  };
+
     const fetchAllCourses = async()=> {
         try{
-            const {data} = await axios.get(backendUrl + '/api/course/all')
+            const {data} = await api('get', '/api/course/all')
             if(data.success){
                 setAllCourses(data.courses)
             }else{
@@ -45,7 +64,7 @@ export const AppContextProvider = (props)=> {
         try{
             const token = await getToken();
 
-            const {data}= await axios.get(backendUrl + '/api/user/data',{headers: {Authorization: `Bearer ${token}`}})
+            const {data}= await api('get', '/api/user/data',{headers: {Authorization: `Bearer ${token}`}})
 
             if(data.success){
                 setUserData(data.user)
@@ -61,11 +80,8 @@ export const AppContextProvider = (props)=> {
         if(course.courseRatings.length === 0){
             return 0;
         }
-        let totalRating = 0
-        course.courseRatings.forEach((rating)=>{
-            totalRating += rating.rating;
-        })
-        return Math.floor(totalRating/course.courseRatings.length);
+        const total = course.courseRatings.reduce((acc, r) => acc + r.rating, 0);
+        return Math.floor(total / course.courseRatings.length);
     }
 
     const calculateChapterTime = (chapter)=> {
@@ -81,19 +97,15 @@ export const AppContextProvider = (props)=> {
     }
 
     const calculateNoOfLectures=(course)=> {
-        let totalLectures = 0;
-        course.courseContent.forEach((chapter) => {
-            if(Array.isArray(chapter.chapterContent)){
-                totalLectures += chapter.chapterContent.length;
-            }
-        });
-        return totalLectures;
-    }
+        return course.courseContent.reduce(
+            (acc,ch)=> acc + (Array.isArray(ch.chapterContent) ? ch.chapterContent.length : 0), 0
+        );
+    };
 
     const fetchUserEnrolledCourses = async ()=> {
         try{
             const token = await getToken();
-            const {data} = await axios.get(backendUrl + '/api/user/enrolled-courses', {headers: {Authorization: `Bearer ${token}`}})
+            const {data} = await api('get', '/api/user/enrolled-courses', {headers: {Authorization: `Bearer ${token}`}})
             if(data.success){
                 setEnrolledCourses(data.enrolledCourses.reverse())
             }else{
@@ -117,12 +129,12 @@ export const AppContextProvider = (props)=> {
        },[user])
 
     const value ={
-        currency, allCourses, navigate, calculateRating, isInstructor, setIsInstructor, calculateNoOfLectures, calculateCourseDuration, calculateChapterTime, enrolledCourses, fetchUserEnrolledCourses, backendUrl, userData, setUserData, getToken, fetchAllCourses
-    }
+        currency, allCourses, navigate, calculateRating, isInstructor, setIsInstructor, calculateNoOfLectures, calculateCourseDuration, calculateChapterTime, enrolledCourses, fetchUserEnrolledCourses, backendUrl, userData, setUserData, getToken, fetchAllCourses, api
+    };
 
-    return(
+    return (
         <AppContext.Provider value={value}>
             {props.children}
         </AppContext.Provider>
-    )
-}
+    );
+};
