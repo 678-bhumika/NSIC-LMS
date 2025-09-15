@@ -31,7 +31,8 @@ const Navbar = () => {
 
             if(data.success){
                 setIsInstructor(true)
-                toast.success(data.message)
+                toast.success(data.message);
+                navigate('/instructor');
             }else{
                 toast.error(data.message)
             }
