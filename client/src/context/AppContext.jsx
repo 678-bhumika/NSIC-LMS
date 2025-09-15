@@ -44,15 +44,15 @@ export const AppContextProvider = (props)=> {
 
     const fetchAllCourses = async()=> {
         try{
-            const data = await api('get', '/api/courses/all')
-            console.log("fetchAllCourses response:", data);
-            if(data.success){
-                setAllCourses(data.courses)
+            const res = await axios.get(`${backendUrl}/api/courses/all`)
+            console.log("fetchAllCourses response:", res.data);
+            if(res.data.success){
+                setAllCourses(res.data.courses)
             }else{
-                toast.error(data.message)
+                toast.error(res.data.message)
             }
         }catch(error){
-            toast.error(error.message)
+            toast.error(error.response?.data?.message || error.message)
         }
     }
 
