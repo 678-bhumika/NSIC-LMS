@@ -6,10 +6,21 @@ import { CourseProgress } from "../models/CourseProgress.js"
 
 export const getUserData = async(req,res)=>{
     try {
-        const userId = req.auth.userId
-        const user = await User.findById(userId)
+        const userId = req.auth?.userId;
+        if (!userId) {
+      return res.status(401).json({ success: false, message: 'Unauthorized: No userId in request' });
+    }
+
+        let user = await User.findById(userId)
         if(!user){
-            return res.json({ success: false, message: 'User Not Found'})
+            user = await User.create({
+        _id: userId,
+        name: req.auth?.name || "New User",
+        email: req.auth?.email || "noemail@example.com",
+        imageUrl: req.auth?.imageUrl || "",
+        enrolledCourses: [],
+      });
+      
         }
         res.json({ success: true, user})
     } catch (error) {
