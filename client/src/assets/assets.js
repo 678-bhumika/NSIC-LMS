@@ -447,7 +447,7 @@ export const dummyLearnersEnrolled = [
 
 export const dummyCourses = [
     {
-        "_id": "605c72efb3f1c2b1f8e4e1a1",
+        "_id": "123",
         "courseTitle": "Entrepreneurship Development Program (EDPs)",
         "courseDescription": "<h2>EDP (Entrepreneurship Development Program) is a training program designed to develop entrepreneurial skills and mindset, helping individuals plan, start, and manage their own businesses successfully.</h2><p>An Entrepreneurship Development Program (EDP) is a structured training initiative aimed at equipping individuals with the knowledge, skills, and mindset required to start and manage their own businesses. It focuses on developing entrepreneurial qualities such as creativity, innovation, risk-taking, leadership, and decision-making. Through practical learning, mentorship, and guidance, EDPs help aspiring entrepreneurs transform ideas into viable ventures while also promoting self-employment and economic growth.</p>",
         "coursePrice": 49.99,
