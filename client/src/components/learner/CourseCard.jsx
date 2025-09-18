@@ -4,7 +4,7 @@ import { AppContext } from '../../context/AppContext'
 import { Link } from 'react-router-dom'
 
 const CourseCard = ({course}) => {
-
+  console.log("CourseCard received:", course);
   const{currency, calculateRating} = useContext(AppContext)
 
   return (
