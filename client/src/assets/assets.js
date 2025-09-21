@@ -91,7 +91,7 @@ export const assets = {
     lesson_icon
 }
 
-export const dummyEducatorData = {
+export const dummyInstructorData = {
     "_id": "675ac1512100b91a6d9b8b24",
     "name": "GreatStack",
     "email": "user.greatstack@gmail.com",
@@ -127,10 +127,10 @@ export const dummyTestimonial = [
 
 export const dummyDashboardData = {
     "totalEarnings": 707.38,
-    "enrolledStudentsData": [
+    "enrolledLearnersData": [
         {
             "courseTitle": "Introduction to JavaScript",
-            "student": {
+            "learner": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Great Stack",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -138,7 +138,7 @@ export const dummyDashboardData = {
         },
         {
             "courseTitle": "Advanced Python Programming",
-            "student": {
+            "learner": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Great Stack",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -146,7 +146,7 @@ export const dummyDashboardData = {
         },
         {
             "courseTitle": "Web Development Bootcamp",
-            "student": {
+            "learner": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Great Stack",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -154,7 +154,7 @@ export const dummyDashboardData = {
         },
         {
             "courseTitle": "Data Science with Python",
-            "student": {
+            "learner": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Great Stack",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -162,7 +162,7 @@ export const dummyDashboardData = {
         },
         {
             "courseTitle": "Cybersecurity Basics",
-            "student": {
+            "learner": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Great Stack",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -172,9 +172,9 @@ export const dummyDashboardData = {
     "totalCourses": 8
 }
 
-export const dummyStudentEnrolled = [
+export const dummyLearnerEnrolled = [
     {
-        "student": {
+        "learner": {
             "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "name": "GreatStack",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -183,7 +183,7 @@ export const dummyStudentEnrolled = [
         "purchaseDate": "2024-12-20T08:39:55.509Z"
     },
     {
-        "student": {
+        "learner": {
             "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "name": "GreatStack",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -192,7 +192,7 @@ export const dummyStudentEnrolled = [
         "purchaseDate": "2024-12-20T08:59:49.964Z"
     },
     {
-        "student": {
+        "learner": {
             "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "name": "GreatStack",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -201,7 +201,7 @@ export const dummyStudentEnrolled = [
         "purchaseDate": "2024-12-20T11:03:42.931Z"
     },
     {
-        "student": {
+        "learner": {
             "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "name": "GreatStack",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
@@ -267,8 +267,8 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
+        "instructor": "675ac1512100b91a6d9b8b24",
+        "enrolledLearners": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
@@ -340,8 +340,8 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
+        "instructor": "675ac1512100b91a6d9b8b24",
+        "enrolledLearners": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
@@ -412,8 +412,8 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
+        "instructor": "675ac1512100b91a6d9b8b24",
+        "enrolledLearners": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
@@ -478,8 +478,8 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
+        "instructor": "675ac1512100b91a6d9b8b24",
+        "enrolledLearners": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
@@ -544,8 +544,8 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
+        "instructor": "675ac1512100b91a6d9b8b24",
+        "enrolledLearners": [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
@@ -609,8 +609,8 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
+        "instructor": "675ac1512100b91a6d9b8b24",
+        "enrolledLearners": [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
@@ -682,8 +682,8 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
+        "instructor": "675ac1512100b91a6d9b8b24",
+        "enrolledLearners": [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
@@ -747,8 +747,8 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
+        "instructor": "675ac1512100b91a6d9b8b24",
+        "enrolledLearners": [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
