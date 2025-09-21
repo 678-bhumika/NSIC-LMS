@@ -3,7 +3,6 @@ import logo_dark from './logo_dark.svg'
 import search_icon from './search_icon.svg'
 import cross_icon from './cross_icon.svg'
 import upload_area from './upload_area.svg'
-import sketch from './sktech.svg'
 import microsoft_logo from './microsoft_logo.svg'
 import walmart_logo from './walmart_logo.svg'
 import accenture_logo from './accenture_logo.svg'
@@ -65,14 +64,13 @@ import dropdown_icon from './dropdown_icon.svg'
 import patients_icon from './patients_icon.svg'
 import play_icon from './play_icon.svg'
 import blue_tick_icon from './blue_tick_icon.svg'
-import course_4 from './course_4.png'
+
 import lesson_icon from './lesson_icon.svg'
 
 
 export const assets = {
     logo,
     search_icon,
-    sketch,
     microsoft_logo,
     walmart_logo,
     accenture_logo,
@@ -131,7 +129,7 @@ export const assets = {
     facebook_icon,
     instagram_icon,
     twitter_icon,
-    course_4,
+    
     file_upload_icon,
     appointments_icon,
     earning_icon,
