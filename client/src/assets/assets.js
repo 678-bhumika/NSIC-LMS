@@ -140,7 +140,6 @@ export const assets = {
 }
 
 export const dummyInstructorData = {
-    "_id": "675ac1512100b91a6d9b8b24",
     "name": "Jane Doe",
     "email": "user.greatstack@gmail.com",
     "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yclFkaDBOMmFqWnBoTTRBOXZUanZxVlo0aXYifQ",
@@ -186,7 +185,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Entrepreneurship Development Programs (EDPs)",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Aarav Sharma",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -194,7 +193,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Digital marketing for MSMEs",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+               
                 "name": "Ananya Iyer",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -202,7 +201,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "E-commerce and online selling",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+              
                 "name": "Rohan Mehta",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -210,7 +209,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Mechanical engineering basics (CNS, CAD/CAM, tool design)",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+               
                 "name": "Kavya Nair",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -218,7 +217,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Electrical and electronics fundamentals",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+               
                 "name": "Siddharth Reddy",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -226,7 +225,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Renewabe energy systems (solar, wind, bio-energy)",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+              
                 "name": "Priya Singh",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -234,7 +233,7 @@ export const dummyDashboardData = {
          {
             "courseTitle": "Basic computer literacy",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Arjun Malhotra",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -242,7 +241,7 @@ export const dummyDashboardData = {
          {
             "courseTitle": "Web design and development",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Sneha Pillai",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -250,7 +249,7 @@ export const dummyDashboardData = {
          {
             "courseTitle": "Software development (Java, Python, C++)",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Aditya Verma",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -258,7 +257,7 @@ export const dummyDashboardData = {
          {
             "courseTitle": "Mobile app development",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+               
                 "name": "Nisha Chauhan",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -266,7 +265,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Artificial Intelligence and Machine Learning",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Ravi Kumar",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -274,7 +273,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Data Science and Analytics",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Sneha Pillai",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -282,7 +281,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Cybersecurity fundamentals",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+               
                 "name": "Vikram Singh",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -290,7 +289,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Cloud computing and networking",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Arjun Malhotra",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -298,7 +297,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Food processing and bakery training",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+               
                 "name": "Nisha Chauhan",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -306,7 +305,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Handicraft and traditional arts",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Anjali Mehta",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -315,14 +314,14 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Electrical technician training",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Manish Kumar",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
         },{
             "courseTitle": "Plumbing, Carpentry, and Construction skills",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Neha Sharma",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -330,7 +329,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "GST & Taxation",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Ritesh Gupta",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -338,7 +337,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Financial literacy and management",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Niti Patel",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -346,7 +345,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "MSME schemes, subsidies and incentives",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Lakshmi Iyer",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -354,7 +353,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Project financing and credit management",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Pranav Desai",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -362,7 +361,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Communication and soft skills",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Aditi Joshi",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -370,7 +369,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Leadership and team management",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Shivam Kapoor",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -378,7 +377,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Time Management and Productivity",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Riya Sen",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -386,7 +385,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Workplace ethics and professionalism",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Mehul Jain",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -394,7 +393,7 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Interview preparation and job readiness",
             "learner": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                
                 "name": "Rahul Verma",
                 "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
             }
@@ -407,7 +406,7 @@ export const dummyDashboardData = {
 export const dummyLearnersEnrolled = [
     {
         "learner": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+           
             "name": "Abhinav Mishra",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
@@ -416,7 +415,7 @@ export const dummyLearnersEnrolled = [
     },
     {
         "learner": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+           
             "name": "Swati Singh",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
@@ -425,7 +424,7 @@ export const dummyLearnersEnrolled = [
     },
     {
         "learner": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+           
             "name": "Priyanshu",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
@@ -434,7 +433,7 @@ export const dummyLearnersEnrolled = [
     },
     {
         "learner": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+           
             "name": "Subhash",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
@@ -445,7 +444,7 @@ export const dummyLearnersEnrolled = [
 
 export const dummyCourses = [
     {
-        "_id": "123",
+       
         "courseTitle": "Entrepreneurship Development Program (EDPs)",
         "courseDescription": "<h2>EDP (Entrepreneurship Development Program) is a training program designed to develop entrepreneurial skills and mindset, helping individuals plan, start, and manage their own businesses successfully.</h2><p>An Entrepreneurship Development Program (EDP) is a structured training initiative aimed at equipping individuals with the knowledge, skills, and mindset required to start and manage their own businesses. It focuses on developing entrepreneurial qualities such as creativity, innovation, risk-taking, leadership, and decision-making. Through practical learning, mentorship, and guidance, EDPs help aspiring entrepreneurs transform ideas into viable ventures while also promoting self-employment and economic growth.</p>",
         "coursePrice": 49.99,
@@ -499,7 +498,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "instructor": "675ac1512100b91a6d9b8b24",
+        
         "enrolledLearners": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
@@ -518,7 +517,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/CBWnBi-awSA/maxresdefault.jpg"
     },
     {
-        "_id": "675ac1512100b91a6d9b8b24",
+       
         "courseTitle": "Digital marketing for MSMEs",
         "courseDescription": "<h2>Digital Marketing for MSMEs: Grow Your Business Online</h2><p>This program is designed to help micro, small, and medium enterprises (MSMEs) leverage the power of digital platforms to grow their businesses. It covers essential tools and strategies like social media, SEO, email marketing, and online branding, enabling MSMEs to reach wider audiences, improve customer engagement, and boost sales cost-effectively.</p>",
         "coursePrice": 79.99,
@@ -572,7 +571,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "instructor": "675ac1512100b91a6d9b8b24",
+        
         "enrolledLearner": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
