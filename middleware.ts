@@ -1,40 +1,42 @@
-// middleware.ts
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs";
-import { NextResponse } from "next/server";
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import { NextResponse } from 'next/server';
 
-// Protected routes
+// Define route matchers
 const isProtectedRoute = createRouteMatcher([
-  "/dashboard(.*)",
-  "/courses(.*)",
-  "/teacher(.*)"
+  "/teacher/(.*)",
+  "/courses/(.*)",
+  "/dashboard/(.*)"
 ]);
 
-// Public routes
 const isPublicRoute = createRouteMatcher([
+  "/",
   "/sign-in(.*)",
   "/sign-up(.*)",
   "/api/webhook(.*)",
   "/api/uploadthing(.*)"
 ]);
 
-export default clerkMiddleware((auth, req) => {
-  const { userId } = auth();
-
-  if (isProtectedRoute(req) && !userId) {
-    return NextResponse.redirect(new URL("/sign-in", req.url));
+export default clerkMiddleware(async (auth, req) => {
+  // Check if it's a public route first
+  if (isPublicRoute(req)) {
+    return NextResponse.next();
   }
 
-  if (isPublicRoute(req) && userId) {
-    return NextResponse.redirect(new URL("/dashboard", req.url));
+  // For all other routes (including protected and root), ensure user is authenticated
+  try {
+    await auth.protect();
+    return NextResponse.next();
+  } catch (error) {
+    const signInUrl = new URL('/sign-in', req.url);
+    signInUrl.searchParams.set('redirect_url', req.url);
+    return NextResponse.redirect(signInUrl);
   }
-
-  return NextResponse.next();
 });
 
 export const config = {
   matcher: [
-    "/((?!.+\\.[\\w]+$|_next).*)",
-    "/",
-    "/(api|trpc)(.*)"
-  ],
+    "/((?!_next/static|_next/image|favicon.ico).*)",
+    "/api/:path*"
+  ]
 };
+ 

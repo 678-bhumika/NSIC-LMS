@@ -32,7 +32,6 @@ export default async function getSafeProfile() {
         return null;
       }
       
-      // Convert createdAt and updatedAt to ISO strings
       const safeProfile: SafeProfile = {
         ...currentProfile,
         createdAt: currentProfile.createdAt.toISOString(),
