@@ -1,0 +1,30 @@
+{
+  "node": {
+    "04c97ec03b3893cafc3f7bb4e49fe42e85ba69fe": {
+      "workers": {
+        "app/(dashboard)/(routes)/(root)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cshadcn_ui%5C%5Clms%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%2C%5B%22C%3A%5C%5Cshadcn_ui%5C%5Clms%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/(routes)/(root)/page": "action-browser"
+      }
+    },
+    "b7c46777485ee22820b9d8ba356c9f8627af0fda": {
+      "workers": {
+        "app/(dashboard)/(routes)/(root)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cshadcn_ui%5C%5Clms%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%2C%5B%22C%3A%5C%5Cshadcn_ui%5C%5Clms%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/(routes)/(root)/page": "action-browser"
+      }
+    },
+    "5a6f272d5585fcecde26d65c0e32412fa8a6ea15": {
+      "workers": {
+        "app/(dashboard)/(routes)/(root)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Cshadcn_ui%5C%5Clms%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%2C%5B%22C%3A%5C%5Cshadcn_ui%5C%5Clms%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/(routes)/(root)/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "u47h0mxckoymCORRkQHHEdfxL5lzIBgavBcs3+Y4hUY="
+}

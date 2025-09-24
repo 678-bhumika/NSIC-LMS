@@ -1,0 +1,3 @@
+{
+  "/(dashboard)/(routes)/(root)/page": "app/(dashboard)/(routes)/(root)/page.js"
+}
