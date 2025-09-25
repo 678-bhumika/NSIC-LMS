@@ -20,6 +20,9 @@ export default async function Dashboard() {
     coursesInProgress
   } = await getDashboardCourses(userId);
 
+  console.log("COURSES IN PROGRESS:", coursesInProgress);
+  console.log("COMPLETED COURSES:", completedCourses);
+
   return (
     <div className="p-6 space-y-4">
       <div className="grid grid-cols-1 gap-4">
