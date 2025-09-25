@@ -5,8 +5,8 @@ import { CheckCircle, Clock, InfoIcon } from "lucide-react";
 import { getDashboardCourses } from "@/actions/get-dashboard-courses";
 import { CoursesList } from "@/components/courses-list";
 
-import InfoCard  from "@/app/(dashboard)/_components/info-card";
-import { Banner } from "@/components/banner";
+import { InfoCard } from "./_components/info-card";
+import { BannerCard } from "./_components/banner-card";
 
 export default async function Dashboard() {
   const { userId } = await auth();
@@ -20,16 +20,16 @@ export default async function Dashboard() {
     coursesInProgress
   } = await getDashboardCourses(userId);
 
-  console.log("COURSES IN PROGRESS:", coursesInProgress);
-  console.log("COMPLETED COURSES:", completedCourses);
-
   return (
     <div className="p-6 space-y-4">
       <div className="grid grid-cols-1 gap-4">
-        <Banner
-          variant="warning"
-          label="Welcome to the dashboard. This is where you can see your progress 
-            and continue your courses."
+        <BannerCard
+          icon={InfoIcon}
+          label="Welcome to the dashboard"
+          description={`This is where you can see your progress 
+            and continue your courses. This is a demonstration LMS and as such, all courses are free and Stripe is in test
+             mode. To enroll in a course, enter dummy data in the Stripe form. Contact me from
+             folio.kendev.co to obtain admin access`}
         />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
