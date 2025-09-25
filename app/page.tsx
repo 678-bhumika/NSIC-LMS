@@ -5,8 +5,8 @@ import { CheckCircle, Clock, InfoIcon } from "lucide-react";
 import { getDashboardCourses } from "@/actions/get-dashboard-courses";
 import { CoursesList } from "@/components/courses-list";
 
-import { InfoCard } from "./_components/info-card";
-import { BannerCard } from "./_components/banner-card";
+import { InfoCard } from "./(dashboard)/_components/info-card";
+import { BannerCard } from "./(dashboard)/_components/banner-card";
 
 export default async function Dashboard() {
   const { userId } = await auth();
