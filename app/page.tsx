@@ -5,8 +5,8 @@ import { CheckCircle, Clock, InfoIcon } from "lucide-react";
 import { getDashboardCourses } from "@/actions/get-dashboard-courses";
 import { CoursesList } from "@/components/courses-list";
 
-import { InfoCard } from "./(dashboard)/_components/info-card";
-import { BannerCard } from "./(dashboard)/_components/banner-card";
+import { InfoCard } from "@/app/(dashboard)/_components/info-card";
+import { Banner } from "@/components/banner";
 
 export default async function Dashboard() {
   const { userId } = await auth();
@@ -23,7 +23,7 @@ export default async function Dashboard() {
   return (
     <div className="p-6 space-y-4">
       <div className="grid grid-cols-1 gap-4">
-        <BannerCard
+        <Banner
           icon={InfoIcon}
           label="Welcome to the dashboard"
           description={`This is where you can see your progress 
